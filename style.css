@@ -258,7 +258,8 @@ section .title::after{
 }
 /*Education section styling*/
 .education .title::after{
-    content: "my qualification";
+    content: "my education";
+
 }
 .container {
     min-height: 100vh;
