@@ -636,6 +636,7 @@ footer span a:hover{
     .menu-btn i.active:before{
         content: "\f00d";
     }
+    
     .navbar .menu{
         position: fixed;
         height: 100vh;
@@ -694,6 +695,11 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+    .navbar .logo a{
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Audiowide', cursive; 
+    }
     .max-width{
         padding: 0 23px;
     }
